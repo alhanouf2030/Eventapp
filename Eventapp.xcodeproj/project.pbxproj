@@ -13,6 +13,10 @@
 		9C0DF16827FACDD800EC25C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C0DF16627FACDD800EC25C4 /* Main.storyboard */; };
 		9C0DF16A27FACDD900EC25C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C0DF16927FACDD900EC25C4 /* Assets.xcassets */; };
 		9C0DF16D27FACDD900EC25C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C0DF16B27FACDD900EC25C4 /* LaunchScreen.storyboard */; };
+		9C0DF17527FACE2D00EC25C4 /* CatagoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0DF17427FACE2D00EC25C4 /* CatagoryCollectionViewCell.swift */; };
+		9C0DF17727FACE3500EC25C4 /* feedbackCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0DF17627FACE3500EC25C4 /* feedbackCollectionViewCell.swift */; };
+		9C0DF17927FACE3B00EC25C4 /* orgpackingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0DF17827FACE3B00EC25C4 /* orgpackingCollectionViewCell.swift */; };
+		9C0DF17B27FACE5600EC25C4 /* OrganizerInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0DF17A27FACE5600EC25C4 /* OrganizerInfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		9C0DF16927FACDD900EC25C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C0DF16C27FACDD900EC25C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C0DF16E27FACDD900EC25C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C0DF17427FACE2D00EC25C4 /* CatagoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CatagoryCollectionViewCell.swift; path = ../../MiniChallenge3/MiniChallenge3/Cells/CatagoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		9C0DF17627FACE3500EC25C4 /* feedbackCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = feedbackCollectionViewCell.swift; path = ../../MiniChallenge3/MiniChallenge3/Cells/feedbackCollectionViewCell.swift; sourceTree = "<group>"; };
+		9C0DF17827FACE3B00EC25C4 /* orgpackingCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = orgpackingCollectionViewCell.swift; path = ../../MiniChallenge3/MiniChallenge3/Cells/orgpackingCollectionViewCell.swift; sourceTree = "<group>"; };
+		9C0DF17A27FACE5600EC25C4 /* OrganizerInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OrganizerInfoVC.swift; path = ../../MiniChallenge3/MiniChallenge3/ViewControllers/OrganizerInfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 		9C0DF15F27FACDD800EC25C4 /* Eventapp */ = {
 			isa = PBXGroup;
 			children = (
+				9C0DF17A27FACE5600EC25C4 /* OrganizerInfoVC.swift */,
+				9C0DF17427FACE2D00EC25C4 /* CatagoryCollectionViewCell.swift */,
+				9C0DF17627FACE3500EC25C4 /* feedbackCollectionViewCell.swift */,
+				9C0DF17827FACE3B00EC25C4 /* orgpackingCollectionViewCell.swift */,
 				9C0DF16027FACDD800EC25C4 /* AppDelegate.swift */,
 				9C0DF16227FACDD800EC25C4 /* SceneDelegate.swift */,
 				9C0DF16427FACDD800EC25C4 /* ViewController.swift */,
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C0DF17727FACE3500EC25C4 /* feedbackCollectionViewCell.swift in Sources */,
+				9C0DF17527FACE2D00EC25C4 /* CatagoryCollectionViewCell.swift in Sources */,
 				9C0DF16527FACDD800EC25C4 /* ViewController.swift in Sources */,
 				9C0DF16127FACDD800EC25C4 /* AppDelegate.swift in Sources */,
 				9C0DF16327FACDD800EC25C4 /* SceneDelegate.swift in Sources */,
+				9C0DF17927FACE3B00EC25C4 /* orgpackingCollectionViewCell.swift in Sources */,
+				9C0DF17B27FACE5600EC25C4 /* OrganizerInfoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
